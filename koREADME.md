@@ -28,4 +28,4 @@
 <br><br>
 
 ## Acknowledgement
-* model/pplcnet.py 코드는 뒤에 링크된 코드에서 약간 변형하였습니다([PP-LCNet](https://github.com/ngnquan/PP-LCNet/blob/main/pplcnet.py)).
+* models/pplcnet.py 코드는 뒤에 링크된 코드에서 약간 변형하였습니다([PP-LCNet](https://github.com/ngnquan/PP-LCNet/blob/main/pplcnet.py)).

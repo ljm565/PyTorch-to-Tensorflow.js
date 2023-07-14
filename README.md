@@ -31,4 +31,4 @@
 <br>
 
 ## Acknowledgement
-* model/pplcnet.py code is slightly changed from [PP-LCNet](https://github.com/ngnquan/PP-LCNet/blob/main/pplcnet.py).
+* models/pplcnet.py code is slightly changed from [PP-LCNet](https://github.com/ngnquan/PP-LCNet/blob/main/pplcnet.py).
