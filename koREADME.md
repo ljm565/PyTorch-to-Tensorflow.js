@@ -17,7 +17,7 @@
     ```
     pt2tfjs
     ┣ model
-    ┃ ┣ {ModelName}
+    ┃ ┗ {ModelName}
     ┃   ┣ {ModelName}.pt
     ┗   ┗ {ModelName}.json
     ```
