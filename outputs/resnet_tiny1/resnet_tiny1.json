@@ -1,0 +1,25 @@
+{
+    "path": "/home/junmin/Documents/Python/auto-scan/src/config.json",
+    "model": "resnet-tiny",
+    "img_size": 196,
+    "normalize": 0,
+    "grayscale": 1,
+    "memory_load": 1,
+    "base_path": "./",
+    "model_name": "resnet_tiny1",
+    "loss_data_name": "resnet_tiny1",
+    "bias": 0,
+    "dropout": 0.1,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "epochs": 100,
+    "lr": 0.0001,
+    "early_stop_criterion": 10,
+    "result_num": 5,
+    "dataset_path": {
+        "pos": "./data/pos/",
+        "neg": "./data/neg/"
+    },
+    "loss_data_path": "./loss/resnet_tiny1.pkl",
+    "model_path": "./model/resnet_tiny1/resnet_tiny1.pt"
+}
