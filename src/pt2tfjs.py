@@ -9,7 +9,7 @@ from scc4onnx import order_conversion
 
 import torch
 
-from config import Config
+from utils.config import Config
 from models.linear import LN
 from models.pplcnet import PPLCNet
 from models.resnet import ResNet, ResNetTiny
@@ -38,7 +38,7 @@ def onnxTf_sanity_check(x, onnx_out, tf_model_path):
 
 def main(args):
     model_name = args.name
-    model_folder_path = './model/' + model_name + '/'
+    model_folder_path = './outputs/' + model_name + '/'
     config = Config(model_folder_path + model_name + '.json')
     size  = config.img_size
     check_point = torch.load(model_folder_path + model_name + '.pt', map_location=torch.device('cpu'))
