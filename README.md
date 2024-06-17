@@ -29,15 +29,15 @@ Let's assume that the trained PyTorch model is inside the `outputs` folder with 
 pt2tfjs (repository)
 ├── src
 └── outputs
-    └── {$ModelName}
-        ├── {$ModelName}.pt
-        └── {$ModelName}.json
+    └── ${ModelName}
+        ├── ${ModelName}.pt
+        └── ${ModelName}.json
 
 ```
 #### Execution
 For the `-n` option, you only need to provide the name of the folder containing the model inside the `outputs` folder.
 ```bash
-python3 src/pt2tfjs.py -n {$ModelName}
+python3 src/pt2tfjs.py -n ${ModelName}
 ```
 <br>
 

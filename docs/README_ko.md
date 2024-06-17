@@ -28,16 +28,16 @@ pip install git+https://github.com/rwightman/pytorch-image-models.git
 pt2tfjs (repository)
 ├── src
 └── outputs
-    └── {$ModelName}
-        ├── {$ModelName}.pt
-        └── {$ModelName}.json
+    └── ${ModelName}
+        ├── ${ModelName}.pt
+        └── ${ModelName}.json
 
 ```
 #### Execution
 `-n` 옵션에는 `outputs` 폴더 안에 위치한 모델 폴더 이름만 넣어주면 됩니다.
 
 ```bash
-python3 src/pt2tfjs.py -n {$ModelName}
+python3 src/pt2tfjs.py -n ${ModelName}
 ```
 <br>
 
